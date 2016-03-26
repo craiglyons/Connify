@@ -15,3 +15,7 @@
     color: #4F8A10;
     background-color: #DFF2BF;
 }
+
+.button-primary {
+    -webkit-appearance: none;
+}
