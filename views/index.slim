@@ -1,10 +1,11 @@
 .container
   .row
-    h1 ~ Connify ~
+    a href="/"
+      h1 ~ Connify ~
     hr
     form action="" method="post"
       label for="num" Number:
-      input class="u-full-width" type="number" name="num"
+      input class="u-full-width" type="number" name="num" id="num"
       input class="button-primary" type="submit" value="Do it!"
     hr
     -if @input

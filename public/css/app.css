@@ -6,6 +6,10 @@
     color: #222;
 }
 
+.container a {
+    text-decoration: none;
+}
+
 .container .input {
     font-weight: 600;
     margin-right: 0.4em;
