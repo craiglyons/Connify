@@ -2,8 +2,14 @@
 
 .container h1 {
     text-align: center;
+    font-style: italic;
+    color: #222;
 }
 
+.container .input {
+    font-weight: 600;
+    margin-right: 0.4em;
+}
 .container .result {
     margin-left: 1em;
     font-size: 1.5em;
