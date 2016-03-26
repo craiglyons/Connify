@@ -1,0 +1,17 @@
+@import 'skeleton.css';
+
+.container h1 {
+    text-align: center;
+}
+
+.container .result {
+    margin-left: 1em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 1px solid;
+    padding:15px 10px 15px 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
