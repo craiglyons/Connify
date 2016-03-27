@@ -1,6 +1,9 @@
 require 'sinatra/base'
 require 'slim'
+require 'rack-google-analytics'
+
 class Connify < Sinatra::Base
+  use Rack::GoogleAnalytics, :tracker => 'UA-75589081-1'
 
   get '/' do
     slim :index
